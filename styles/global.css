@@ -1,0 +1,52 @@
+:root {
+    --base-font-size: 16px;
+    /* colors */
+    --amaranth-purple: #982649;
+    --battleship-gray: #7C8483;
+    --air-blue: #71A2B6;
+    --picton-blue: #60B2E5;
+    --electric-blue: #53F4FF;
+    --black: #000;
+
+    /* Font weight */
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+
+    /* Border radius */
+    --rounded: 4px;
+    --rounded-md: 6px;
+    --rounded-lg: 10px;
+    --rounded-xl: 16px;
+    --rounded-2xl: 22px;
+
+
+}
+
+
+html,
+body,
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+a,
+button,
+input {
+    margin: 0;
+    padding: 0;
+    font-size: var(--base-font-size);
+    font-weight: var(--font-normal);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,26 @@
+@import '../components/button.css';
+
+.navbar {
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.navbar-menu li a {
+    color: var(--battleship-gray);
+}
+
+.navbar-menu li a:hover {
+    color: black
+}
+
+.nav_actions {
+    margin-left: auto;
+}

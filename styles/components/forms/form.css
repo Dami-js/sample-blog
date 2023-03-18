@@ -1,0 +1,46 @@
+@import '../button.css';
+
+.login-card {
+    border: 1px solid var(--battleship-gray);
+    padding: 30px;
+    border-radius: var(--rounded-lg);
+}
+
+.form {
+    width: 300px;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+.form-label {
+    font-size: 1rem;
+    font-weight: var(--font-medium);
+    padding-bottom: 5px;
+}
+
+.form-input {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    height: 50px;
+    border: 1px solid var(--battleship-gray);
+    border-radius: var(--rounded-md);
+    outline: none;
+    color: var(--battleship-gray);
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.form-input[type="password"] {
+    letter-spacing: 6px;
+    font-size: 1.8rem;
+}
+
+.form-action {
+    padding-top: 20px;
+    text-align: center;
+}

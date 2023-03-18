@@ -1,0 +1,43 @@
+.button {
+    min-width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: var(--rounded);
+    cursor: pointer;
+}
+
+.button.amaranth {
+    background-color: var(--amaranth-purple);
+    color: white;
+}
+
+.button.battleship {
+    background-color: var(--battleship-gray);
+    color: white;
+}
+
+.button.air {
+    background-color: var(--air-blue);
+    color: white;
+}
+
+.button.picton {
+    background-color: var(--picton-blue);
+    color: white;
+}
+
+.button.electric {
+    background-color: var(--electric-blue);
+    color: black;
+}
+
+.button.black {
+    background-color: black;
+    color: white;
+}
+
+.button.small {
+    font-size: 0.8rem;
+    padding: 6px;
+    min-width: 80px;
+}

@@ -1,0 +1,23 @@
+.container {
+    padding: 0px 16px;
+}
+
+.post-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 30px 0px;
+    gap: 30px;
+}
+
+.post-item {
+    border: 1px solid #f4f4f4;
+    padding: 20px;
+    border-radius: var(--rounded-md);
+}
+
+.post-item p {
+    font-size: 0.8rem;
+    padding-bottom: 10px;
+}
+
+.post-item__action {}
